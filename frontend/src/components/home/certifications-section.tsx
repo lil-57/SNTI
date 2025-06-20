@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card"
 const certifications = [
   {
     title: "Qualité",
-    description: "Nos processus respectent les normes de qualité les plus exigeantes du secteur.",
+    description: "Nos processus respectent les normes de qualité.",
   },
   {
     title: "Sécurité",

@@ -32,13 +32,14 @@ export function ServicesList() {
       icon: "Building",
       href: "/services#structures",
     },
-    {
+    /*{
       title: "Maintenance industrielle",
       description:
         "Services de maintenance préventive et corrective pour assurer la pérennité des installations. Interventions rapides et efficaces.",
       icon: "Wrench",
       href: "/services#maintenance",
-    },
+    }
+    */
     {
       title: "Serrurerie",
       description:

@@ -8,7 +8,7 @@ export function CompanyStats() {
     { value: "25+", label: "Années d'expérience" },
     { value: "500+", label: "Projets réalisés" },
     { value: "50+", label: "Clients fidèles" },
-    { value: "15+", label: "Experts qualifiés" },
+    { value: "12+", label: "Experts qualifiés" },
   ]
 
   return (

@@ -1,20 +1,17 @@
-// contact-map.tsx
 "use client"
 
-import { useEffect } from "react"
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
 import { motion } from "framer-motion"
 import { ScrollReveal } from "@/components/scroll-reveal"
 
-// ⬇️ Ajoute ceci :
 import L from "leaflet"
 import "leaflet/dist/leaflet.css"
 import "leaflet-defaulticon-compatibility"
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
 
-
 export function ContactMap() {
-  const position: [number, number] = [49.3098, 6.1257] // Fameck
+  const position: [number, number] = [49.30965, 6.123923] // Adresse SNTI à Fameck
+  const address = "5+Boucle+des+Dinandiers,+57290+Fameck"
 
   return (
     <section className="py-16 bg-gray-50">
@@ -47,7 +44,35 @@ export function ContactMap() {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
             <Marker position={position}>
-              <Popup>SNTI - Société basée à Fameck</Popup>
+              <Popup>
+                <div className="space-y-1 text-sm">
+                  <div className="font-semibold">SNTI – Fameck</div>
+                  <a
+                    href={`https://www.google.com/maps/dir/?api=1&destination=${address}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-emerald-600 hover:underline"
+                  >
+                    🗺 Google Maps
+                  </a>
+                  <a
+                    href={`https://waze.com/ul?ll=${position[0]},${position[1]}&navigate=yes`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-emerald-600 hover:underline"
+                  >
+                    🚗 Waze
+                  </a>
+                  <a
+                    href={`http://maps.apple.com/?daddr=${address}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-emerald-600 hover:underline"
+                  >
+                    📍 Apple Plans
+                  </a>
+                </div>
+              </Popup>
             </Marker>
           </MapContainer>
         </motion.div>
