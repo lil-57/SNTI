@@ -32,7 +32,7 @@ export function AboutPreview() {
               Plus de 25 ans d&apos;expertise
             </h2>
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-              Créée en 1998, la Société Nouvelle de Tuyauterie Industrielle (SNTI) intervient dans les domaines de la
+              Créée en 1998, SNTI intervient dans les domaines de la
               tuyauterie industrielle, de la chaudronnerie et des structures métalliques, pour des projets neufs ou de
               réparations.
             </p>

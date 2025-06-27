@@ -31,12 +31,13 @@ export function ServiceCard({ title, description, icon, href, index = 0, details
         "Mise en service et commissioning",
       ],
       applications: [
-        "Industries chimiques et pétrochimiques",
-        "Centrales électriques",
-        "Usines agroalimentaires",
-        "Sites de traitement des eaux",
-        "Installations de chauffage industriel",
+        "Sites industriels de toute nature",
+        "Usines de production ou de transformation",
+        "Sites sidérurgiques (ex. ArcelorMittal Florange)",
+        "Industries papetières (ex. Norske Skog Golbey)",
+        "Installations techniques spécifiques sur mesure",
       ],
+      
       certifications: [
         "Soudeurs certifiés EN 287",
         "Conformité EN 13480 (tuyauterie industrielle)",
@@ -49,7 +50,6 @@ export function ServiceCard({ title, description, icon, href, index = 0, details
         "Soudage TIG, MIG/MAG, à l'arc",
         "Soudage sur aciers spéciaux et inox",
         "Soudage de précision",
-        "Contrôles non destructifs",
         "Réparations par soudage",
       ],
       applications: [
