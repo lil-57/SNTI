@@ -57,7 +57,7 @@ export function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden border border-emerald-500/20 backdrop-blur-sm">
               <div className="relative w-full h-64 sm:h-80 lg:h-[500px] rounded-2xl overflow-hidden">
                 <img
-                  src="/images/BatSNTI.jpg"
+                  src="/images/SNTI-lieu.png"
                   alt="Équipe SNTI sur un chantier"
                   className="absolute inset-0 w-full h-full object-cover z-0"
                 />
