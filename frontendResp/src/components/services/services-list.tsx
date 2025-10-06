@@ -65,6 +65,13 @@ export function ServicesList() {
             </div>
           ))}
         </div>
+        <ScrollReveal>
+          <div className="text-center mt-8 sm:mt-12">
+            <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-4">
+            Tous nos services sont réalisés sur mesure, de la conception à l’installation, pour tous types de secteurs.
+            </p>
+          </div>
+          </ScrollReveal>
       </div>
     </section>
   )

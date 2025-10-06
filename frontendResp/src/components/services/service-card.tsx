@@ -88,6 +88,16 @@ export function ServiceCard({ title, description, icon, href, index = 0 }: Servi
           </h3>
           <p className="text-gray-600 text-sm leading-relaxed mb-4">{description}</p>
 
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+/* details pour la case service, mais non utilisé pour l'instant
+
           <button
             onClick={() => setShowDetails(!showDetails)}
             className="text-emerald-600 text-sm font-medium hover:text-emerald-700 transition-colors flex items-center"
@@ -102,8 +112,7 @@ export function ServiceCard({ title, description, icon, href, index = 0 }: Servi
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
           </button>
-
-          {showDetails && (
+         {showDetails && (
             <div className="mt-4 pt-4 border-t border-gray-100 space-y-3 text-sm">
               <div>
                 <h4 className="font-semibold text-gray-800 mb-1">Nos prestations :</h4>
@@ -117,8 +126,4 @@ export function ServiceCard({ title, description, icon, href, index = 0 }: Servi
               </div>
             </div>
           )}
-        </div>
-      </div>
-    </div>
-  )
-}
+*/
