@@ -9,7 +9,7 @@ Développé sur mon temps libre, le site est complet et fonctionnel, mais n’a 
 - TailwindCSS  
 
 ## 🔗 Démo
-👉 [Voir le site en ligne](https://snti.vercel.app)
+👉 [Voir le site en ligne](https://snti-z636.vercel.app)
 
 ## 💡 Remarques
 Certaines sections contiennent encore du contenu exemple (en attente d’ajouts définitifs).
